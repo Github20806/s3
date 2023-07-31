@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_HUB_CREDENTIALS = 'docker_credentials'
-        DOCKER_IMAGE_NAME = 'bsoundarya/jenkins_pipeline'
+        DOCKER_IMAGE_NAME = 'bsoundarya/s3-bucket'
         DOCKER_IMAGE_TAG = "latest-${env.BUILD_NUMBER}"
         GIT_URL = 'https://github.com/Github20806/s3.git'
     }
